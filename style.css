@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ :root {
+     /*Primary color */
+     --dark-grey : hsl(0, 2%, 9%);
+     --bright-blue: hsl(196, 67%, 56%);
+     --background-white: hsl(45, 11%, 93%);
+     --clr-orange:hsl(22, 96%, 30%);
+     --maroon-fav:hsl(0, 92%, 15%);
+     --font-primary: "Roboto", sans-serif;
+     --font-fav:"Times New Roman";
+     --font-secondary: "Open Sans", sans-serif;
+     --transition: all 0.5s ease-in-out;
+     --spacing: 0.28rem;
+     --radius: 0.52rem;
+     --light-shadow: 0 5px 15px rgba(44, 29, 29, 0.816);
+     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+     --max-width: 96%;
+     --fixed-width: 620px;
+     --font-size: 1em;
+ }
+
+ body{
+     width:var(--max-width);
+     background-color: var(--background-white);
+     font-family: var(--font-secondary);
+     font-size:var(--font-size);
+     padding: 2em;
+     margin: 2em;
+     border: 1px solid black;
+ }
+
+ .nav{
+     width: 88%;
+     margin: 0 auto;
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+     background-color: var(--background-white);
+     min-height:30px;
+     box-sizing: border-box;
+     border-radius: var(--radius);
+     box-shadow: var(--dark-shadow);
+ }
+
+ .logo{
+    width: 40%;
+     padding: 20px;
+ }
+
+ .logo img{
+     width: 35%;
+ }
+
+ .links{
+     width: 65%;
+     padding: 35px;
+ }
+
+ .links ul li{
+     float: left;
+     padding: 14px;
+     margin-left: 14px;
+     text-decoration: none;
+     list-style: none;
+ }
+
+ .links ul li a{
+     text-decoration: none;
+     color:var(--dark-grey)
+ }
+
+ .links ul li a:hover{
+     color: var(--clr-orange);
+    font-family: var(--font-secondary);
+     text-transform: uppercase;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+ }
+
+ .section {
+    padding: 5rem 0;
+  }
+  
+  main {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  
+  /*Menu*/
+  
+  .menu {
+    padding: 5rem 0;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .underline {
+    width: 15rem;
+    height: 0.2rem;
+    background: var(--clr-orange);
+    margin: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button-container {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .filter-button {
+    background: transparent;
+    border-color: var(--clr-orange);
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0 0.5rem;
+    letter-spacing: 1px;
+    border-radius: var(--radius);
+    padding: 0.375rem 0.75rem;
+    color: var(--clr-gold);
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  .filter-button:hover {
+    background: var(--clr-orange);
+    color: var(--clr-white);
+    transition: 0.8s ease-in-out;
+  }
+  .section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    gap: 3rem 2rem;
+    justify-items: center;
+  }
+  .menu-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1.8rem;
+    max-width: 20rem;
+  }
+
+  .photo {
+    object-fit: cover;
+    height: 300px;
+    border: 0.25rem solid var(--clr-orange);
+    border-radius: var(--radius);
+    margin-left: 5em;
+  }
+
+  .item-info header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px dotted var(--dark-grey);
+  }
+  .item-info h4 {
+    margin-bottom: 0.5rem;
+  }
+  .price {
+    color: var(--clr-orange);
+  }
+  .item-text {
+    margin-bottom: 0;
+    padding-top: 1rem;
+    margin-right: 1rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .menu-item {
+      grid-template-columns: 225px 1fr;
+      gap: 0 1.25rem;
+      max-width: 40rem;
+    }
+    .photo {
+      height: 175px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .section-center {
+      width: 95vw;
+      grid-template-columns: 1fr 1fr;
+    }
+    .photo {
+      height: 150px;
+    }
+  }
