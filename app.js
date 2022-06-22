@@ -85,7 +85,7 @@ const menu = [
       category: "Diffusers",
       price: 10000,
       img: "/Imagez/dif.jpeg",
-      desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+      desc: `Do you love the scent of Arabian ouds? Then this diffuser is for you, give your room that arabian feel`,
     },
     {
         id: 11,
@@ -93,7 +93,7 @@ const menu = [
         category: "Diffusers",
         price: 8500,
         img: "/Imagez/diff.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Orchid -a plant with complex flowers that are often showy or bizarrely shaped, having a large specialized lip (labellum) and frequently a spur. Orchids occur worldwide, especially as epiphytes in tropical forests, and are valuable hothouse plants.Perfect as an in-house diffuser.`,
       },
       {
         id: 12,
@@ -101,15 +101,16 @@ const menu = [
         category: "Diffusers",
         price: 9000,
         img: "/Imagez/diffuser.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Imagine this. Standing still in the woods , scents of diiferent leaves, trees flowers, soil and forces of nature all coming together to form something so pure that it's become like a priceless gem. That's nature's breathe`,
       },
       {
         id: 13,
-        title: "Coral reef",
+        title: "Great Barrier reef",
         category: "Diffusers",
         price: 10000,
         img: "/Imagez/diffu.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `A coral reef is an underwater ecosystem characterized by reef-building corals.
+        It is that unique aspect, the combination of the warm Pacific Ocean and the powdery, sweet-scented coral that we made the focus of this fragrance,an unforgettable scent, inspired by an unforgettable locale.`,
       },
       {
         id: 14,
@@ -117,7 +118,7 @@ const menu = [
         category: "Diffusers",
         price: 15000,
         img: "/Imagez/diffus.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Arabian musk fragrance is similar to OUD, its woodsy aroma and captivating scent will make you feel as if you are on a mystic vacation, trekking through exotic markets of the Middle East.`,
       },
       
       {
@@ -126,7 +127,7 @@ const menu = [
         category: "Diffusers",
         price: 7000,
         img: "/Imagez/diffuse.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `a large Eurasian maple with winged fruits, native to central and southern Europe. It is planted as a fast-growing ornamental but tends to displace native trees,The sycamore is also called the buttonwood tree or American planetree.`,
       },
       {
         id: 16,
@@ -134,150 +135,134 @@ const menu = [
         category: "Essential Oils",
         price: 2500,
         img: "/Imagez/basil.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Basil is an herb in the mint family. It adds flavor to meals, and its nutrients may provide health benefits. This plant plays a therapeutic role in Tamil and Ayurvedic medicines, which are predominantly practiced in Southeast Asia.`,
       },
       {
         id: 17,
         title: "Cedarwood",
-        category: "Essential Oils",
+        category: "Essential-Oils",
         price: 2500,
         img: "/Imagez/cedarwood.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `The health benefits of cedarwood essential oil can be attributed to its properties as an antiseborrheic, antiseptic, antispasmodic, tonic, astringent, diuretic, emmenagogue, expectorant, insecticidal, sedative, and fungicidal substance.`,
       },
 
       {
         id: 18,
         title: "Chamomile",
-        category: "Essential Oils",
+        category: "Essential-Oils",
         price: 2500,
         img: "/Imagez/chamomile.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Chamomile is an herb that comes from the daisy-like flowers of the Asteraceae plant family. It has been consumed for centuries as a natural remedy for several health conditions. To make chamomile tea, the flowers are dried and then infused into hot water`,
       },
       {
         id: 19,
         title: "Fennel",
-        category: "Essential Oils",
+        category: "Essential-Oils",
         price: 2500,
         img: "/Imagez/fennel.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `What's fennel oil used for?
+        Fennel oil is a remedy for digestive complaints such as flatulence, constipation, colic, nausea, vomiting, anorexia, dyspepsia and hiccups. It is also used in cases of obesity, as it promotes that 'full feeling' and has a diuretic effect that helps to disperse cellulite.`,
       },
 
       {
         id: 20,
         title: "Grapefruit",
-        category: "Essential Oils",
+        category: "Essential-Oils",
         price: 2500,
         img: "/Imagez/Grapefruit.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Grapefruit essential oil is an orange-tinted, citrus-scented oil frequently used in aromatherapy, it has distinct properties that may offer a variety of health benefits — including reduced blood pressure and stress levels.`,
       },
 
       {
         id: 21,
         title: "Juniper",
-        category: "Essential Oils",
+        category: "Essential-Oils",
         price: 2500,
         img: "/Imagez/juniper.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `The essential oil of juniper is inhaled to treat bronchitis and numb pain. In foods, the juniper berry is often used as a condiment and a flavoring ingredient in gin and bitter preparations. The extract and essential oil are used as a flavoring ingredient in foods and beverages.`,
       },
 
       {
         id: 22,
         title: "Indian Mural",
-        category: "Scented Candles",
+        category: "Scented-Candles",
         price: 4500,
         img: "/Imagez/boringC.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Indian paintings can be broadly classified as murals, miniatures and paintings on cloth. Murals are large works executed on the walls of solid structures, as in the Ajanta Caves and the Kailashnath temple. Miniature paintings are executed on a very small scale for books or albums on perishable material such as paper and cloth.`,
       },
 
       {
         id: 23,
         title: "White rose",
-        category: "Scented Candles",
+        category: "Scented-Candles",
         price: 6500,
         img: "/Imagez/flowe.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `This isn't a typical rose scent - it has notes of mint and lemon to add freshness. It also has notes of white rose, muguet, geranium, blue spruce, and musk. You'll love it in this candle`,
       },
 
       {
         id: 24,
         title: "Rosy feel",
-        category: "Scented Candles",
+        category: "Scented-Candles",
         price: 8000,
         img: "/Imagez/rose.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `A dreamy floral fragrance that fills your home with exquisite notes of musky rose, lemony beeswax and dewy greens.`,
       },
 
       {
         id: 25,
         title: "Hibiscus breeze",
-        category: "Scented Candles",
+        category: "Scented-Candles",
         price: 4500,
         img: "/Imagez/natureC.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `A soft floral note with musky undertones,Extremely pleasant smell. Soft, refined and radiant. Delivers the aroma of a delicate citrus bouquet of tropical hibiscus petals.`,
       },
 
       {
         id: 26,
         title: "Lover's embrace",
-        category: "Scented Candles",
+        category: "Scented-Candles",
         price: 8500,
         img: "/Imagez/loveC.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `Lover's Embrace replaces the Well Rested perk. When sleeping, the player character will obtain one or the other, but not both. If the player character already has the Lover's Embrace perk and attempts to sleep away from their companion, they still will not obtain the Well Rested perk. Has a mixture of vanilla , citrus and rosemary scents`,
       },
 
       {
         id: 27,
         title: "Pink fall",
-        category: "Scented Candles",
+        category: "Scented-Candles",
         price: 9500,
         img: "/Imagez/pinkC.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `The dominant earthy smells of fall are largely the product of plants hunkering down for the winter. Fallen leaves begin to decay and their sugars and organic compounds in the leaf break down, creating the classic musky-sweet smell of a leaf pile.`,
       },
 
       {
         id: 28,
         title: "Dark Knight",
-        category: "Scented Candles",
+        category: "Scented-Candles",
         price: 4800,
         img: "/Imagez/bottle.jpeg",
-        desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+        desc: `A dark knight is in many ways, also a ‘white knight’ but one who would rather remain in the shadows and support a grey emminance position of maintaining moral order. In other words subtle but strong scents.`,
       },
 
 
   ];
 
-  const sectionMid= document.querySelector('.section-center');
+  const sectionMid= document.querySelector(".section-center");
 
-  const filterButtons = document.querySelectorAll('.filter-button');
+  const buttonContainer = document.querySelector(".button-container");
+
 
   //LOAD MENU
-  window.addEventListener('DOMContentLoaded', function(){
+  window.addEventListener("DOMContentLoaded", function () {
     displayMenuItems(menu);
-  });
-
-  //FILTER MENU
-  filterButtons.forEach(function(button){
-    button.addEventListener('click', function(e){
-       const category = e.currentTarget.dataset.id;
-       
-       const fragranceCategory = menu.filter(function(menuItem){
-            if (menuItem.category===category){
-              return menuItem;
-            }
-       });
-
-       if(category=== 'all'){
-        displayMenuItems(menu);
-       }
-       else {
-         displayMenuItems(fragranceCategory);
-       }
-    });
+    displayMenuButtons();
   });
 
   function displayMenuItems(menuItems){
-    let displayMenu = menuItems.map(function(item){
+    let displayMenu = menuItems.map(function (item) {
   //ADDING HTML CONTENT TO THE JScript
+
       return `<article class="menu-item">
       <img src=${item.img} alt=${item.title} class="photo" />
       <div class="item-info">
@@ -289,11 +274,58 @@ const menu = [
             ${item.desc}
         </p>
       </div>
-    </article>
-
-    `;
+    </article>`;
   });
   //DISPLAY CONTENT OF ARRAY AND INNER HTML TOGETHER
   displayMenu = displayMenu.join("");
- sectionMid.innerHTML = displayMenu;
-  };
+
+  sectionMid.innerHTML = displayMenu;
+  }
+
+  function displayMenuButtons() {
+    const categories = menu.reduce(function(values, item) {
+      if(!values.includes(item.category)) {
+        values.push(item.category);
+      }
+       return values;
+    }, 
+    ["all"]
+    );
+     const categoryButtons = categories
+     .map(function (category) {
+      return `<button type ="button" class="filter-button" data-id= ${category}>
+      ${category}
+      </button>` ;
+     })
+    .join("");
+
+   // console.log(categoryButtons)
+   buttonContainer.innerHTML = categoryButtons;
+   
+  const filterButtons = document.querySelectorAll(".filter-button");
+  console.log(filterButtons);
+
+   //FILTER MENU
+
+  filterButtons.forEach(function(button){
+    button.addEventListener('click', function(e){
+       const category = e.currentTarget.dataset.id;
+       
+       const fragranceCategory = menu.filter(function(menuItem){
+            if (menuItem.category===category){
+              return menuItem;
+            }
+       });
+
+       if(category === 'all'){
+        displayMenuItems(menu);
+       }
+       else {
+         displayMenuItems(fragranceCategory);
+       }
+    });
+  });
+}
+  
+
+  
