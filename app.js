@@ -1,3 +1,4 @@
+//DEFAULT FRAGRANCE MENU
 const menu = [
     {
       id: 1,
@@ -132,7 +133,7 @@ const menu = [
       {
         id: 16,
         title: "Basil",
-        category: "Essential Oils",
+        category: "Essential-Oils",
         price: 2500,
         img: "/Imagez/basil.jpeg",
         desc: `Basil is an herb in the mint family. It adds flavor to meals, and its nutrients may provide health benefits. This plant plays a therapeutic role in Tamil and Ayurvedic medicines, which are predominantly practiced in Southeast Asia.`,
@@ -247,7 +248,8 @@ const menu = [
 
 
   ];
-
+  
+  //SELECTING NEEDED CLASSES FROM HTML
   const sectionMid= document.querySelector(".section-center");
 
   const buttonContainer = document.querySelector(".button-container");
@@ -259,6 +261,7 @@ const menu = [
     displayMenuButtons();
   });
 
+//FUNCTION TO DISPLAY CONTENT FROM THE menu ARRAY ABOVE
   function displayMenuItems(menuItems){
     let displayMenu = menuItems.map(function (item) {
   //ADDING HTML CONTENT TO THE JScript
@@ -282,6 +285,7 @@ const menu = [
   sectionMid.innerHTML = displayMenu;
   }
 
+  //FUNCTION TO DISPLAY BUTTONS FROM THE JAVASCRIPT SIDE - this grants the ability to add new buttons dynamically from javascript without having to go to the HTML
   function displayMenuButtons() {
     const categories = menu.reduce(function(values, item) {
       if(!values.includes(item.category)) {
@@ -289,10 +293,13 @@ const menu = [
       }
        return values;
     }, 
+    //CREATING A NEW BUTTON CATEGORY "ALL"
     ["all"]
     );
+
      const categoryButtons = categories
      .map(function (category) {
+      //ADDING HTML TO JS USING BATIKS
       return `<button type ="button" class="filter-button" data-id= ${category}>
       ${category}
       </button>` ;
@@ -300,13 +307,16 @@ const menu = [
     .join("");
 
    // console.log(categoryButtons)
+   //CONNECTING THE HTML ON LINE 302
    buttonContainer.innerHTML = categoryButtons;
    
+   //SELECTING THE BUTTON FROM LINE 302
   const filterButtons = document.querySelectorAll(".filter-button");
   console.log(filterButtons);
 
    //FILTER MENU
 
+   //ADDING ACTION TO EACH CREATED BUTTONS FROM LINE 299 
   filterButtons.forEach(function(button){
     button.addEventListener('click', function(e){
        const category = e.currentTarget.dataset.id;
